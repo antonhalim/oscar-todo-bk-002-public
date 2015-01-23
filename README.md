@@ -21,7 +21,6 @@ oscars = {
       "The Imitation Game", 
       "Boyhood", 
       "Selma", 
-      "The Theory of Everything", 
       "Whiplash", 
       "The Grand Budapest Hotel"
     ],
@@ -50,7 +49,7 @@ oscars = {
   "best_picture" => [
     "Teenage Mutant Ninja Turtles", 
     "The Imitation Game", 
-    "Birdman", "Boyhood", 
+    "Boyhood", 
     "Selma", 
     "Whiplash", 
     "The Grand Budapest Hotel"
