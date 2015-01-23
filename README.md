@@ -8,6 +8,8 @@ resources: 2
 
 ## Background
 
+![oscar statue](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/oscars.jpeg)
+
 You work for the Oscars and you left your computer unattended during lunch. When you returned to your desk, you noticed that someone tried to sabotage the nominees by deleting real movies and sometimes replacing them with Teenage Mutant Ninja Turtles and other flops from 2014.
 
 ## Objective
@@ -83,9 +85,9 @@ Steps:
 3. Replace Vampire Academy with Into the Woods in one step
   * Check out the [[]= method](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-5B-5D-3D) for arrays
 4. Delete the key, value `best_movies_ever`
-  * Ruby's [delete](http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-delete) method might be useful.
+  * Ruby's [delete](http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-delete) method might be useful
 5. Add a key, value pair `best_animated_film`, and its array of names
-  * Look into Ruby's [[]= method](http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-5B-5D-3D) for hashes.
+  * Look into Ruby's [[]= method](http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-5B-5D-3D) for hashes
 
 Run your testing suite to see where you stand. The tests are written in order so get each test to pass before moving on to the next.
 
