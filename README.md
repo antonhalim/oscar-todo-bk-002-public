@@ -16,7 +16,7 @@ The hash looked like this before lunch:
 
 ```ruby
 oscars = {
-    :best_picture => [
+    "best_picture" => [
       "Birdman", 
       "The Imitation Game", 
       "Boyhood", 
@@ -25,14 +25,14 @@ oscars = {
       "Whiplash", 
       "The Grand Budapest Hotel"
     ],
-    :best_costumes => [
+    "best_costumes" => [
       "The Grand Budapest Hotel",
       "Inherent Vice", 
       "Into the Woods", 
       "Maleficent", 
       "Mr. Turner"
     ],
-    :best_animated_film => [
+    "best_animated_film" => [
       "Big Hero 6", 
       "Song of the Sea", 
       "The Boxtrolls", 
@@ -47,7 +47,7 @@ Now it looks like this:
 
 ```ruby
 oscars = {
-  :best_picture => [
+  "best_picture" => [
     "Teenage Mutant Ninja Turtles", 
     "The Imitation Game", 
     "Birdman", "Boyhood", 
@@ -55,14 +55,14 @@ oscars = {
     "Whiplash", 
     "The Grand Budapest Hotel"
   ],
-  :best_costumes => [
+  "best_costumes" => [
     "The Grand Budapest Hotel",
     "Inherent Vice", 
     "Vampire Academy", 
     "Maleficent", 
     "Mr. Turner"
   ],
-  :best_movies_ever => [
+  "best_movies_ever" => [
     "Step Up",
     "The Room",
     "Xanadu"
@@ -85,7 +85,7 @@ Steps:
   * Check out the [[]= method](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-5B-5D-3D) for arrays
 4. Delete the key, value `best_movies_ever`
   * Ruby's [delete](http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-delete) method might be useful.
-5. Add a key, value pair `:best_animated_film`, and its array of names
+5. Add a key, value pair `best_animated_film`, and its array of names
   * Look into Ruby's [[]= method](http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-5B-5D-3D) for hashes.
 
 Run your testing suite to see where you stand. The tests are written in order so get each test to pass before moving on to the next.
