@@ -89,6 +89,8 @@ Steps:
 5. Add a key, value pair `best_animated_film`, and its array of names
   * Look into Ruby's [[]= method](http://www.ruby-doc.org/core-1.9.3/Hash.html#method-i-5B-5D-3D) for hashes
 
+Think about return values. *This lab expects every method to return the modified hash.*
+
 Run your testing suite to see where you stand. The tests are written in order so get each test to pass before moving on to the next.
 
 ## Resources
