@@ -51,8 +51,4 @@ describe "oscar list" do
   end
 
 end
-ated_film"]).to include(a)}
-    end
-  end
 
-end
